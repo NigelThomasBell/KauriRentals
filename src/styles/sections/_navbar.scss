@@ -1,0 +1,156 @@
+@use "../_global" as *;
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: $background-white;
+}
+
+/* Desktop navigation */
+.navbar {
+  max-width: 133rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+
+  &__logo {
+    width: 15rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+    a {
+      font-size: $normal-text-size;
+      font-family: $font;
+      font-weight: 500;
+      color: $text-black;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $text-primary;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      display: none;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1rem;
+    font-size: $normal-text-size;
+    font-family: $font;
+    font-weight: 500;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+      display: none;
+    }
+
+    &__button {
+      background-color: $text-primary;
+      color: $background-white;
+      padding: 1.5rem 3rem;
+      border-radius: 2rem;
+      box-shadow: 0 10px 15px 0 $box-shadow-secondary;
+      transition: all 0.3s;
+
+      &:hover {
+        box-shadow: 0 10px 15px 0 $box-shadow-secondary-hover;
+        background-color: $text-primary;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+/* Mobile navigation */
+.mobile-hamburger {
+  font-size: $normal-text-size;
+  display: none;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $text-primary;
+  }
+
+  @media (max-width: 1000px) {
+    display: flex;
+  }
+}
+
+.mobile-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background-color: $background-white;
+  z-index: 2;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  overflow: auto;
+  padding-top: 100px;
+
+  &__close {
+    font-size: $normal-text-size;
+    position: absolute;
+    top: 3.5rem;
+    right: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $text-primary;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    font-size: $mobile-nav-links-size;
+    gap: 3rem;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 3rem;
+
+    li {
+      a {
+        text-decoration: none;
+        color: $text-black;
+        font-weight: 500;
+        transition: all 0.3s;
+
+        &:hover {
+          color: $text-primary;
+        }
+      }
+    }
+  }
+}
+
+.open-nav {
+  left: 0;
+}

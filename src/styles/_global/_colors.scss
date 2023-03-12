@@ -1,0 +1,28 @@
+// background colors
+$transparent: transparent;
+$background-light-gray: #f6f5f4;
+$background-gray: #dddddd;
+$background-white: #ffffff;
+$background-black: #000000;
+
+// text color
+$text-black: #010103;
+$text-primary: #16ab84;
+$text-secondary: #0c604a;
+$text-gray: #706f7b;
+$button-black: #161616;
+$button-gray: #ccd7e6;
+$banner: #2d2d2d;
+
+// shades
+$box-shadow-black: rgba($background-black, 0.1);
+$box-shadow-black-modal: rgba($background-black, 0.3);
+$box-shadow-secondary: rgb($text-secondary, 0.35);
+$box-shadow-secondary-hover: rgb($text-secondary, 0.55);
+
+// booking
+$error-color: #721c24;
+$error-background-color: #f8d7da;
+$success-color: #2a6817;
+$success-background-color: #c3fabe;
+$booking-border-color: #f5c6cb;
