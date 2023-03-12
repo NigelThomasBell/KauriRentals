@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { IconMenu2, IconX } from "@tabler/icons-react";
 import Logo from "../images/logo/logo.png";
 import { NAVBAR_LINKS_DATA, NAVBAR_BUTTONS_DATA } from "../data/WebsiteData";
 
@@ -45,11 +46,11 @@ function Navbar() {
           </div>
           {/* Mobile Navbar */}
           <div className="mobile-hamburger" onClick={openNavbar}>
-            a
+            <IconMenu2 width={30} height={30} />
           </div>
           <div className={`mobile-navbar ${mobileNavbar ? "open-nav" : ""}`}>
             <div onClick={openNavbar} className="mobile-navbar__close">
-              b
+              <IconX className={"close"} width={30} height={30} />
             </div>
             <ul className="mobile-navbar__links">
               {NAVBAR_LINKS_DATA.map((item, index) => (
