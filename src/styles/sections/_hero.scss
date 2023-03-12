@@ -1,0 +1,14 @@
+@use "../_global" as *;
+
+/* Hero section */
+#hero-section {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  background-image: url("/src/images/hero/hero-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
