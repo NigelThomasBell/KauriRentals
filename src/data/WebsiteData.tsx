@@ -135,3 +135,19 @@ export const LOCATION_DATA = [
     name: "Wellington"
   },
 ]
+
+// Trip Steps
+export const TRIP_STEPS_DATA = [
+  {
+    title: "Step 1: Select",
+    description: "Explore our extensive selection of vehicles tailored to meet all your driving requirements. Find the perfect vehicle that aligns seamlessly with your needs.",
+  },
+  {
+    title: "Step 2: Contact",
+    description: "Our experienced and friendly team will go the extra mile with any inquiries or concerns you may have. Feel free to contact us for personalized support.",
+  },
+  {
+    title: "Step 3: Drive",
+    description: "Enjoy your journey and confidently embrace the open road with our comprehensive support system and multiple service centres.",
+  },
+];

@@ -1,0 +1,84 @@
+/* Importing global */
+@use "../_global" as *;
+
+/* Trip Steps Section */
+.trip-steps-section {
+  background-color: $background-white;
+  padding: 5.3rem 0;
+}
+
+/* Trip Steps Container */
+.trip-steps-container {
+  display: flex;
+  flex-direction: column;
+
+  /* Title */
+  &__title {
+    margin: 0 auto;
+    text-align: center;
+    color: $text-black;
+
+    /* Headings */
+    h3 {
+      font-size: $h3-size;
+      font-family: $font;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: $h2-size;
+      font-family: $font;
+      margin: 1.3rem 0 3rem 0;
+    }
+  }
+
+  /* Boxes */
+  &__boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding: 0 3rem;
+
+    /* Responsive Layout */
+    @media (max-width: 1021px) {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 2rem;
+    }
+
+    /* Further Responsive Layout */
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr;
+      margin-top: 1rem;
+    }
+
+    /* Box */
+    &__box {
+      text-align: center;
+      padding: 1rem 6rem;
+
+      /* Responsive Padding */
+      @media (max-width: 500px) {
+        padding: 1rem;
+      }
+
+      /* Image */
+      img {
+        width: 17rem;
+        height: auto;
+      }
+
+      /* Heading */
+      h3 {
+        font-size: $h3-size;
+        margin-bottom: 1rem;
+      }
+
+      /* Paragraph */
+      p {
+        font-size: $normal-text-size;
+        font-family: $font;
+        color: $text-gray;
+        line-height: 1.43;
+      }
+    }
+  }
+}
