@@ -170,3 +170,41 @@ export const TESTIMONIAL_PEOPLE_DATA = [
     img: TestimonialFemale
   },
 ];
+
+// Footer
+export const FOOTER_CONTACT_DATA = [
+  {
+    title: "Phone",
+    link: "tel:123456789",
+    text: "(123) 456-789",
+  },
+  {
+    title: "Email",
+    link: "mailto:kaurirentals@notrealmail.com",
+    text: "kaurirentals@notrealmail.com",
+  }
+];
+export const FOOTER_COMPANY_DATA = [
+  {
+    link: "#home",
+    text: "Careers",
+  },
+  {
+    link: "#home",
+    text: "Blog",
+  },
+];
+export const FOOTER_WORKING_HOURS_DATA = [
+  {
+    title: "Mon-Fri",
+    text: "9:00AM - 9:00PM",
+  },
+  {
+    title: "Sat",
+    text: "10:00AM - 8:00PM",
+  },
+  {
+    title: "Sun",
+    text: "Closed",
+  }
+];

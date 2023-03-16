@@ -1,0 +1,97 @@
+@use "../_global" as *;
+
+/* Footer */
+footer {
+  background-color: $background-white;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.footer-content {
+  display: grid;
+  color: $text-black;
+  grid-template-columns: 29fr 12fr 20fr 20fr;
+  gap: 6rem;
+  justify-content: center;
+  text-align: left;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: 1fr;
+  }
+
+  &__section {
+    list-style: none;
+
+    @media (max-width: 650px) {
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-black;
+      transition: all 0.2s;
+
+      &:hover {
+        color: $text-primary;
+      }
+    }
+
+    li {
+      font-size: $normal-text-size;
+      margin-bottom: 1rem;
+
+      &:nth-child(1) {
+        font-size: $h3-size;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: $font;
+        cursor: auto;
+      }
+    }
+
+    input {
+      width: 100%;
+      font-family: $font;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      background-color: $background-light-gray;
+      border-width: 1px;
+      border-color: transparent;
+      padding: 10px;
+      outline: none;
+      margin-top: 1rem;
+
+      @media (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Submit Email button */
+.submit-email {
+  font-family: $font;
+  text-decoration: none;
+  color: $background-white;
+  font-weight: 700;
+  background-color: $text-primary;
+  padding: 1.5rem 2.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 0 $box-shadow-secondary;
+  transition: all 0.3s;
+  border: 2px solid $text-primary;
+  font-size: 1.6rem;
+  width: fit-content;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    box-shadow: 0 10px 15px 0 $box-shadow-secondary-hover;
+    background-color: $text-primary;
+  }
+}
