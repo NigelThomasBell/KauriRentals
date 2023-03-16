@@ -1,0 +1,116 @@
+@use "../_global" as *;
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: $background-white;
+  padding: 5.3rem 0;
+}
+
+/* Testimonials Container */
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  
+  /* Title */
+  &__title {
+    margin: 0 auto;
+    text-align: center;
+    color: $text-black;
+
+    /* Headings */
+    h3 {
+      font-size: $h3-size;
+      font-family: $font;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: $h2-size;
+      font-family: $font;
+      margin: 1.3rem 0 3rem 0;
+    }
+  }
+}
+
+/* All Testimonials */
+.testimonials {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+
+  @media (max-width: 1000px) {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  /* Testimonial Box */
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: $background-white;
+    box-shadow: 0 20px 40px 0 rgb($background-black, 0.08);
+    width: 54rem;
+    padding: 5.5rem;
+    position: relative;
+    border-radius: 2rem;
+
+    @media (max-width: 1000px) {
+      padding: 5rem 3rem;
+      width: 100%;
+    }
+
+    p {
+      font-size: $normal-text-size;
+      font-weight: 500;
+    }
+
+    /* Name */
+    &__name {
+      display: flex;
+
+      /* Profile */
+      &__profile {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 3rem;
+
+        img {
+          width: 7rem;
+          height: 7rem;
+          border-radius: 2rem;
+        }
+
+        h4 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: $normal-text-size;
+          font-family: $font;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+/* Quotes Icon */
+.quotes-icon {
+  font-size: 6.2rem;
+  color: $text-primary;
+  position: absolute;
+  bottom: 33px;
+  right: 60px;
+
+  @media (max-width: 470px) {
+    display: none;
+  }
+}
+
+/* Box-2 */
+.box-2 {
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
