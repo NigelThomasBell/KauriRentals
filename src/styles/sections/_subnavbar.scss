@@ -1,0 +1,53 @@
+@use "../_global" as *;
+
+/* Sub Navbar Styles */
+.sub-navbar {
+  width: 100%;
+  height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  /* Overlay */
+  &__overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $background-white;
+  }
+
+  /* Text */
+  &__text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    justify-content: center;
+    color: $text-black;
+
+    h3 {
+      font-size: 3.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: $normal-text-size;
+      font-weight: 600;
+
+      /* Breadcrumbs */
+      a {
+        color: $text-black;
+        text-decoration: none;
+        transition: all 0.2s;
+
+        &:hover {
+          color: $text-primary;
+        }
+      }
+    }
+  }
+}

@@ -8,6 +8,8 @@ import ToyotaRAV4 from "../images/vehicles/car-placeholder.png";
 import TestimonialMale from "../images/testimonials/male.png";
 import TestimonialFemale from "../images/testimonials/female.png";
 
+import AboutMain from "../images/about/about-main.jpg";
+
 // Navbar
 export const NAVBAR_LINKS_DATA = [
   {
@@ -208,3 +210,31 @@ export const FOOTER_WORKING_HOURS_DATA = [
     text: "Closed",
   }
 ];
+
+// About
+export const ABOUT_MAIN_CONTENT = {
+  "heading": "Start the engine to your adventure",
+  "description": "At Kauri Rentals, we pride ourselves on providing a seamless and enjoyable Vehicle rental experience. With our diverse fleet of well-maintained Vehicles, competitive rates, flexible rental options, and a commitment to customer satisfaction, we strive to make your rental process straightforward and stress-free. Discover the freedom to drive the open road with confidence, and let Kauri Rentals be your trusted partner in transportation.",
+  "img": AboutMain
+}
+export const ABOUT_FIGURES_DATA = [
+  {
+    number: "6",
+    category: "Vehicle Types",
+  },
+  { 
+    number: "12",
+    category: "Rental Outlets",
+  },
+  { 
+    number: "18",
+    category: "Repair Shops",
+  },
+];
+
+// Contact
+export const DETAILS_DATA = {
+  phone: "(123) 456-7869",
+  email: "kaurirentals@notrealmail.com",
+  location: "Auckland, New Zealand",
+}
