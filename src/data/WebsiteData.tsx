@@ -7,6 +7,8 @@ import ToyotaRAV4 from "../images/vehicles/car-placeholder.png";
 
 import TestimonialMale from "../images/testimonials/male.png";
 import TestimonialFemale from "../images/testimonials/female.png";
+import TeamMale from "../images/team/male.png";
+import TeamFemale from "../images/team/female.png";
 
 import AboutMain from "../images/about/about-main.jpg";
 
@@ -238,3 +240,13 @@ export const DETAILS_DATA = {
   email: "kaurirentals@notrealmail.com",
   location: "Auckland, New Zealand",
 }
+
+// Our Team
+export const TEAM_PEOPLE_DATA = [
+  { name: "Jackson Reynolds", role: "Founder", img: TeamMale },
+  { name: "Lily Thompson", role: "Branch Manager", img: TeamFemale },
+  { name: "Caleb Mitchell", role: "Fleet Coordinator", img: TeamMale, },
+  { name: "Sophia Rodriguez", role: "Customer Service", img: TeamFemale },
+  {  name: "Isaac Harper", role: "Mechanic", img: TeamMale },
+  {  name: "Amy Simmons", role: "Risk Management Specialist", img: TeamFemale },
+];
