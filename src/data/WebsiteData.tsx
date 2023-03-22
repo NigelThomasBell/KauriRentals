@@ -250,3 +250,23 @@ export const TEAM_PEOPLE_DATA = [
   {  name: "Isaac Harper", role: "Mechanic", img: TeamMale },
   {  name: "Amy Simmons", role: "Risk Management Specialist", img: TeamFemale },
 ];
+
+// FAQ
+export const FAQ_DATA = [
+  {
+    question: "How old do I need to be to rent a vehicle?",
+    answer: "To rent a vehicle with us, you must be at least 21 years old. However, some vehicle categories may have a minimum age requirement of 25. Additionally, drivers under 25 may be subject to a young driver surcharge.",
+  },
+  {
+    question: "What documents are required to rent a vehicle?",
+    answer: "You will need a valid driver's license, a major credit card in the renter's name, and, in some cases, proof of insurance. International renters may also need a valid passport and an international driver's permit.",
+  },
+  {
+    question: "What is included in the rental rate?",
+    answer: "Our rental rates typically include the basic rental fee and mandatory taxes and fees. However, additional charges may apply for optional services like GPS navigation, child seats, and fuel. It's essential to review the rental agreement and ask our staff about any specific fees related to your rental.",
+  },
+  {
+    question: "What happens if I return the vehicle late?",
+    answer: "Returning the vehicle late may result in additional charges. We usually provide a grace period, but if you exceed it, you'll likely be charged for an extra day or on an hourly basis. It's important to communicate any potential delays with our rental office to discuss options and avoid unnecessary charges.",
+  },
+]

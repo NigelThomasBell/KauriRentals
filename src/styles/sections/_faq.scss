@@ -1,0 +1,48 @@
+@use "../_global" as *;
+
+/* FAQ section */
+.faq-section {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+}
+
+/* FAQ content */
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  color: $text-black;
+}
+
+/* All questions */
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* FAQ box */
+.faq-box {
+  display: flex;
+  flex-direction: column;
+  color: $text-black;
+  background-color: $background-white;
+  width: 80rem;
+  font-size: $normal-text-size;
+
+  @media (max-width: 850px) {
+    width: 100%;
+  }
+
+  /* Question */
+  &__question {
+    font-weight: bold;
+  }
+
+  /* Answer */
+  &__answer {
+    font-size: $normal-text-size;
+    margin-left: 20px;
+  }
+}
