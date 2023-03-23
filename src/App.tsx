@@ -7,6 +7,7 @@ import Vehicles from "./pages/Vehicles";
 import Testimonials from "./pages/Testimonials";
 import Team from "./pages/Team";
 import Faq from "./pages/Faq";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="testimonials" element={<Testimonials />} />
         <Route path="team" element={<Team />} />
         <Route path="faq" element={<Faq />} />
+        <Route path="contact" element={<Contact />} />
         
         {/* Catch-all route to redirect to the homepage */}
         <Route path="*" element={<Home />} />
