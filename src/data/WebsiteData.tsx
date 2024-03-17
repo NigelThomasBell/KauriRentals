@@ -1,9 +1,9 @@
-import SuzukiSwift from "../images/vehicles/car-placeholder.png";
-import ToyotaCorolla from "../images/vehicles/car-placeholder.png";
-import HondaCivic from "../images/vehicles/car-placeholder.png";
-import ToyotaCamry from "../images/vehicles/car-placeholder.png";
-import MitsubishiOutlander from "../images/vehicles/car-placeholder.png";
-import ToyotaRAV4 from "../images/vehicles/car-placeholder.png";
+import SuzukiSwift from "../images/vehicles/suzuki-swift.webp";
+import ToyotaCorolla from "../images/vehicles/toyota-corolla.webp";
+import HondaCivic from "../images/vehicles/honda-civic.webp";
+import ToyotaCamry from "../images/vehicles/toyota-camry.webp";
+import MitsubishiOutlander from "../images/vehicles/mitsubishi-outlander.webp";
+import ToyotaRAV4 from "../images/vehicles/toyota-rav4.webp";
 
 import TestimonialMale from "../images/testimonials/male.png";
 import TestimonialFemale from "../images/testimonials/female.png";
