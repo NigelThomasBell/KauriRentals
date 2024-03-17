@@ -41,6 +41,13 @@ function Contact() {
             </div>
           </div>
         </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.635905895779!2d174.7678881!3d-36.8506426!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47fca5f404a1%3A0x1106c8f13dfbfc12!2sAlbert%20Park!5e0!3m2!1sen!2snz!4v1710666204783!5m2!1sen!2snz"
+            allowFullScreen={true}
+            loading="lazy"
+            title="map"
+            style={{ width: "100%", height: "45rem", border: "0px" }}
+          ></iframe>
         <BookBanner />
       </section>
     </>
