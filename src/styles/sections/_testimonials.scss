@@ -53,6 +53,7 @@
     padding: 5.5rem;
     position: relative;
     border-radius: 2rem;
+    border: 1px solid $text-gray;
 
     @media (max-width: 1000px) {
       padding: 5rem 3rem;
