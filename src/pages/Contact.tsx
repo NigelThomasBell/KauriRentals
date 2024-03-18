@@ -10,7 +10,7 @@ function Contact() {
         <div className="container">
           <div className="contact-div">
             <div className="contact-div__text">
-              <h2>Need further information?</h2>
+              <h2>Need more info?</h2>
               {Object.entries(DETAILS_DATA).map(([key, value]) => (
                 <a key={key} href="/">
                   {value}

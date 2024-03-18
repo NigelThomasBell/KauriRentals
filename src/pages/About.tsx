@@ -32,8 +32,8 @@ function About() {
               alt="vehicle-renting"
             />
           </div>
-          <PlanTripNow />
         </div>
+        <PlanTripNow />
         <BookBanner />
       </section>
     </>

@@ -9,13 +9,11 @@ function SubNavbar({ name }: HeroPagesProps): JSX.Element {
     <>
       <section className="sub-navbar">
         <div className="sub-navbar__overlay"></div>
-        <div className="container">
-          <div className="sub-navbar__text">
-            <h3>{name}</h3>
-            <p>
-              <Link to="/">Home</Link> / {name}
-            </p>
-          </div>
+        <div className="sub-navbar__text">
+          <h3>{name}</h3>
+          <p>
+            <Link to="/">Home</Link> / {name}
+          </p>
         </div>
       </section>
     </>

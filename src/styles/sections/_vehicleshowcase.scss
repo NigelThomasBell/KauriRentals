@@ -3,7 +3,6 @@
 /* Vehicle section */
 .vehicle-section {
   background-color: $background-light-gray;
-  padding: 10rem 0;
 }
 
 /* Vehicle container */
@@ -17,7 +16,7 @@
     text-align: center;
     color: $text-black;
     max-width: 50rem;
-    margin-bottom: 5rem;
+    margin: 1.3rem auto 3rem auto;
 
     p {
       font-size: $normal-text-size;

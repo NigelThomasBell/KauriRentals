@@ -216,7 +216,7 @@ export const FOOTER_WORKING_HOURS_DATA = [
 // About
 export const ABOUT_MAIN_CONTENT = {
   "heading": "Start the engine to your adventure",
-  "description": "At Kauri Rentals, we pride ourselves on providing a seamless and enjoyable Vehicle rental experience. With our diverse fleet of well-maintained Vehicles, competitive rates, flexible rental options, and a commitment to customer satisfaction, we strive to make your rental process straightforward and stress-free. Discover the freedom to drive the open road with confidence, and let Kauri Rentals be your trusted partner in transportation.",
+  "description": "At Kauri Rentals, we pride ourselves on providing a seamless and enjoyable vehicle rental experience. With our diverse fleet of well-maintained vehicles, competitive rates, flexible rental options, and a commitment to customer satisfaction, we strive to make your rental process straightforward and stress-free. Discover the freedom to drive the open road with confidence, and let Kauri Rentals be your trusted partner in transportation.",
   "img": AboutMain
 }
 export const ABOUT_FIGURES_DATA = [
