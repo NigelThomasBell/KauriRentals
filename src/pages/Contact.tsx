@@ -11,8 +11,8 @@ function Contact() {
           <div className="contact-div">
             <div className="contact-div__text">
               <h2>Need more info?</h2>
-              {CONTACT_DATA.map((item) => (
-                <a href={item.link}>
+              {CONTACT_DATA.map((item, index) => (
+                <a key={index} href={item.link}>
                   <b>{item.title}:</b> {item.text}
                 </a>
               ))}
