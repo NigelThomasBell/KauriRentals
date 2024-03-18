@@ -1,6 +1,6 @@
 import SubNavbar from "../components/route-components/SubNavbar";
 import BookBanner from "../components/route-components/banners/BookBanner";
-import { DETAILS_DATA } from "../data/WebsiteData";
+import { CONTACT_DATA } from "../data/WebsiteData";
 
 function Contact() {
   return (
@@ -11,9 +11,9 @@ function Contact() {
           <div className="contact-div">
             <div className="contact-div__text">
               <h2>Need more info?</h2>
-              {Object.entries(DETAILS_DATA).map(([key, value]) => (
-                <a key={key} href="/">
-                  {value}
+              {CONTACT_DATA.map((item) => (
+                <a href={item.link}>
+                  <b>{item.title}:</b> {item.text}
                 </a>
               ))}
             </div>

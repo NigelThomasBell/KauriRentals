@@ -175,8 +175,8 @@ export const TESTIMONIAL_PEOPLE_DATA = [
   },
 ];
 
-// Footer
-export const FOOTER_CONTACT_DATA = [
+// Footer and Contact
+export const CONTACT_DATA = [
   {
     title: "Phone",
     link: "tel:123456789",
@@ -186,6 +186,11 @@ export const FOOTER_CONTACT_DATA = [
     title: "Email",
     link: "mailto:kaurirentals@notrealmail.com",
     text: "kaurirentals@notrealmail.com",
+  },
+  {
+    title: "Location",
+    link: "https://www.google.com/maps/place/Albert+Park/@-36.8506426,174.7678881,15z/data=!4m2!3m1!1s0x0:0x1106c8f13dfbfc12?sa=X&ved=1t:2428&ictx=111",
+    text: "Auckland, New Zealand",
   }
 ];
 export const FOOTER_COMPANY_DATA = [
@@ -232,14 +237,7 @@ export const ABOUT_FIGURES_DATA = [
     number: "18",
     category: "Repair Shops",
   },
-];
-
-// Contact
-export const DETAILS_DATA = {
-  phone: "(123) 456-7869",
-  email: "kaurirentals@notrealmail.com",
-  location: "Auckland, New Zealand",
-}
+]
 
 // Our Team
 export const TEAM_PEOPLE_DATA = [

@@ -1,5 +1,5 @@
 import {
-  FOOTER_CONTACT_DATA,
+  CONTACT_DATA,
   FOOTER_COMPANY_DATA,
   FOOTER_WORKING_HOURS_DATA,
 } from "../data/WebsiteData";
@@ -12,7 +12,7 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__section">
               <li>Contact</li>
-              {FOOTER_CONTACT_DATA.map((item, index) => (
+              {CONTACT_DATA.map((item, index) => (
                 <li key={index}>
                   <a href={item.link}>
                     <b>{item.title}</b>: {item.text}

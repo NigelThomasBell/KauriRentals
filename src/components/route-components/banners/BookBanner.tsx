@@ -1,5 +1,5 @@
 import { IconPhone } from "@tabler/icons-react";
-import { DETAILS_DATA } from "../../../data/WebsiteData";
+import { CONTACT_DATA } from "../../../data/WebsiteData";
 
 function BookBanner() {
   return (
@@ -10,7 +10,7 @@ function BookBanner() {
             <h2>Make a booking on the home page or call</h2>
             <span>
               <IconPhone width={40} height={40} />
-              <h3>{DETAILS_DATA.phone}</h3>
+              <h3>{CONTACT_DATA[0].text}</h3>
             </span>
           </div>
         </div>
