@@ -1,9 +1,4 @@
-import SuzukiSwift from "../images/vehicles/suzuki-swift.webp";
-import ToyotaCorolla from "../images/vehicles/toyota-corolla.webp";
-import HondaCivic from "../images/vehicles/honda-civic.webp";
-import ToyotaCamry from "../images/vehicles/toyota-camry.webp";
-import MitsubishiOutlander from "../images/vehicles/mitsubishi-outlander.webp";
-import ToyotaRAV4 from "../images/vehicles/toyota-rav4.webp";
+import CarPlaceholder from "../images/vehicles/car-placeholder.png";
 
 import TestimonialMale from "../images/testimonials/male.png";
 import TestimonialFemale from "../images/testimonials/female.png";
@@ -66,7 +61,7 @@ export const VEHICLE_DATA = [
   {
     name: "Suzuki Swift",
     price: "30",
-    img: SuzukiSwift,
+    img: CarPlaceholder,
     year: "2022",
     doors: "4",
     transmission: "Manual",
@@ -75,7 +70,7 @@ export const VEHICLE_DATA = [
   {
     name: "Toyota Corolla",
     price: "35",
-    img: ToyotaCorolla,
+    img: CarPlaceholder,
     year: "2022",
     doors: "4",
     transmission: "Automatic",
@@ -84,7 +79,7 @@ export const VEHICLE_DATA = [
   {
     name: "Honda Civic",
     price: "40",
-    img: HondaCivic,
+    img: CarPlaceholder,
     year: "2022",
     doors: "4",
     transmission: "Manual",
@@ -93,7 +88,7 @@ export const VEHICLE_DATA = [
   {
     name: "Toyota Camry",
     price: "40",
-    img: ToyotaCamry,
+    img: CarPlaceholder,
     year: "2022",
     doors: "4",
     transmission: "Automatic",
@@ -102,7 +97,7 @@ export const VEHICLE_DATA = [
   {
     name: "Mitsubishi Outlander",
     price: "45",
-    img: MitsubishiOutlander,
+    img: CarPlaceholder,
     year: "2022",
     doors: "4",
     transmission: "Manual",
@@ -111,7 +106,7 @@ export const VEHICLE_DATA = [
   {
     name: "Toyota RAV4",
     price: "45",
-    img: ToyotaRAV4,
+    img: CarPlaceholder,
     year: "2022",
     doors: "4",
     transmission: "Automatic",
