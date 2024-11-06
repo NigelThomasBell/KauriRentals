@@ -199,7 +199,7 @@ export const FOOTER_COMPANY_DATA = [
   },
   {
     link: "/faq",
-    text: "Faq",
+    text: "FAQ",
   },
 ];
 export const FOOTER_WORKING_HOURS_DATA = [
