@@ -190,12 +190,16 @@ export const CONTACT_DATA = [
 ];
 export const FOOTER_COMPANY_DATA = [
   {
-    link: "#home",
-    text: "Careers",
+    link: "/about",
+    text: "About",
   },
   {
-    link: "#home",
-    text: "Blog",
+    link: "/team",
+    text: "Team",
+  },
+  {
+    link: "/faq",
+    text: "Faq",
   },
 ];
 export const FOOTER_WORKING_HOURS_DATA = [
